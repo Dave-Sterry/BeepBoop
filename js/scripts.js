@@ -2,11 +2,10 @@
 $(document).ready(function() {
   $("#userInput").submit(function(event) {
     event.preventDefault();
-    const number = parseInt($("#anyNumber").val());
-    console.log(number);
+    const number = parseInt($("#number").val());
     const boop = beepBoop(number);
 
-    var results= boop.join(',');
+    const results= boop.join(',');
 
     $("#output").text(results);
   });
@@ -16,9 +15,12 @@ $(document).ready(function() {
 //Business Interface Logic
 function beepBoop(number) {
   let resultsArray = [];
-  for (let i=0; i = number; i++) {
+  for (let i=0; i <= number; i++) {
     resultsArray.push([i]);
-      if (resultsArray[i]){}
+      if (resultsArray[i].toString().includes("1")){
+        resultsArray[i]=("beep");
+        console.log(resultsArray);
+      }
   }
 }
 
