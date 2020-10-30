@@ -14,3 +14,7 @@ background-color: powderblue;
 .btn-primary:hover {
 background-color: rebeccapurple;
 }
+
+.image-holder {
+  text-align: center;
+}
