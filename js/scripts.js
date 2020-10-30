@@ -8,9 +8,9 @@ $(document).ready(function() {
     let results = boop.join(" , ");
     $("#output").text(results);
   });
-  $('#clearbutton').click(function() {
+  $('#reset').click(function() {
     $('#output').hide();
-  })
+  });
 });
 
 
@@ -25,7 +25,6 @@ function beepBoop(number) {
         resultsArray[i]= "Boop";
       } else if (resultsArray[i].toString().includes(1)){
         resultsArray[i]= "Beep";
-        console.log(resultsArray);
       }
   }
   //currently wont return single results for double digit numbers, lists all elements in the array. 
