@@ -21,6 +21,8 @@ function beepBoop(number) {
         resultsArray[i]=("beep");
       } else if (resultsArray[i].toString().includes(2)){
         resultsArray[i]=("boop");
+      } else if (resultsArray[i].toString().includes(3)){
+        resultsArray[i]=("Wont you be my neighbor");
         console.log(resultsArray);
       }
   }
