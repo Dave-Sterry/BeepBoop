@@ -17,8 +17,10 @@ function beepBoop(number) {
   let resultsArray = [];
   for (let i=0; i <= number; i++) {
     resultsArray.push([i]);
-      if (resultsArray[i].toString().includes("1")){
+      if (resultsArray[i].toString().includes(1)){
         resultsArray[i]=("beep");
+      } else if (resultsArray[i].toString().includes(2)){
+        resultsArray[i]=("boop");
         console.log(resultsArray);
       }
   }
