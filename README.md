@@ -46,7 +46,7 @@ Describe: beepBoop()
 **Expect** (beepBoop(13)).toEqual(Won't you be my neigbor?)
 
 ## Known Bugs
-Currently only works for single digit numbers. Double digit numbers return whole array
+no know bugs at this time
 
 ## Contact and Support details
 

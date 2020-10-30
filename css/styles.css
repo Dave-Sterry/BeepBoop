@@ -1,0 +1,16 @@
+body {
+  background-color: plum;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.jumbotron {
+background-color: powderblue;
+}
+
+.btn-primary {
+  background-color: powderblue;
+  color: black;
+}
+.btn-primary:hover {
+background-color: rebeccapurple;
+}
