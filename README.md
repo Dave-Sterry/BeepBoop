@@ -28,7 +28,7 @@ Test: It replaces the digit 1 with "Beep!" in any number that contains the digit
 Expect:(beepBoop(1)).toEqual("Beep!");
 
 Test: It replaces the digit 2 with "Boop!" in any number that contains the digit 2
-Expect:(beepBoop(2)).toEqual("Boop!";
+Expect:(beepBoop(2)).toEqual("Boop!");
 
 Test: It replaces the digit 3 with "Won't you be my neighbor?" for any number that contains the digit 3
 Expect(beepBoop(3)).toEqual("Won't you be my neighbor?")
