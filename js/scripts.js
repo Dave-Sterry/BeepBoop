@@ -5,10 +5,12 @@ $(document).ready(function() {
     const number = parseInt($("#number").val());
     const boop = beepBoop(number);
 
-    const results= boop.join(',');
-
+    let results = boop.join(" , ");
     $("#output").text(results);
   });
+  $('#clearbutton').click(function() {
+    $('#output').hide();
+  })
 });
 
 
@@ -17,14 +19,16 @@ function beepBoop(number) {
   let resultsArray = [];
   for (let i=0; i <= number; i++) {
     resultsArray.push([i]);
-      if (resultsArray[i].toString().includes(1)){
-        resultsArray[i]=("beep");
+      if (resultsArray[i].toString().includes(3)){
+        resultsArray[i]="Wont you be my neighbor";
       } else if (resultsArray[i].toString().includes(2)){
-        resultsArray[i]=("boop");
-      } else if (resultsArray[i].toString().includes(3)){
-        resultsArray[i]=("Wont you be my neighbor");
+        resultsArray[i]= "Boop";
+      } else if (resultsArray[i].toString().includes(1)){
+        resultsArray[i]= "Beep";
         console.log(resultsArray);
       }
   }
+  //currently wont return single results for double digit numbers, lists all elements in the array. 
+  return resultsArray;
 }
 
