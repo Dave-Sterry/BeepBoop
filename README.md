@@ -1,11 +1,10 @@
-# TITLE 
+# Beep Boop Machine
 <img src="https://github.com/Dave-Sterry.png" width="200px" height="auto">
 
-### A website by David Sterry updated on -----
-
+### A website by David Sterry updated on 10/30/20
 ## Description
 
-_Insert Descrption_
+_A simple website that will take a users numerical input and return words. Input of 1 is replaced with Beep, input of 2 is replaced with Boop and an input of 3 is replaced with "wont you be my neighbor?"_
 
 The site can be viewed [here](insert gh pages link)
 
@@ -32,8 +31,9 @@ Expect:(beepBoop(2)).toEqual("Boop!");
 
 Test: It replaces the digit 3 with "Won't you be my neighbor?" for any number that contains the digit 3
 Expect(beepBoop(3)).toEqual("Won't you be my neighbor?")
+
 ## Known Bugs
-There are no known bugs at this time
+Currently only works for single digit numbers. Double digit numbers return whole array
 
 ## Contact and Support details
 
