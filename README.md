@@ -27,7 +27,7 @@ The site can be viewed [here](https://dave-sterry.github.io/BeepBoop/)
 
 ## Specs
 
-Describe: beepBoop()
+**Describe**: beepBoop()
 
 **Test**: It returns an array with 0 if the user inputs 0  
 **Expect**:(beepBoop(0)).toEqual([0]);
@@ -41,7 +41,7 @@ Describe: beepBoop()
 **Test**: It replaces all digits  with "Won't you be my neighbor?" for any number that contains the digit 3  
 **Expect**(beepBoop(3)).toEqual("Won't you be my neighbor?")
 
-**Test**: It replaces all digits with first or second exception when a 2 or 3 is present in input  
+**Test**: It replaces all digits with second or third exception when a 2 or 3 is present in input with two digits    
 **Expect**(beepBoop(21)).toEqual(Boop)   
 **Expect** (beepBoop(13)).toEqual(Won't you be my neigbor?)
 

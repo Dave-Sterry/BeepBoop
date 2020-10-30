@@ -10,6 +10,8 @@ background-color: powderblue;
 .btn-primary {
   background-color: powderblue;
   color: black;
+  margin:10px;
+  padding:5px;
 }
 .btn-primary:hover {
 background-color: rebeccapurple;
