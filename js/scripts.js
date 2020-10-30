@@ -8,12 +8,7 @@ $(document).ready(function() {
     let results = boop.join(" , ");
     $("#output").text(results);
   });
-  $('#clear').click(function() {
-    $('#output').hide();
-  });
-  $('#reset').click(function() {
-    $('#userInput').resetForm();
-  })
+
 });
 
 
@@ -22,7 +17,7 @@ function beepBoop(number) {
   let resultsArray = [];
   for (let i=0; i <= number; i++) {
     resultsArray.push([i]);
-      if (resultsArray[i].toString().includes(3)){
+      if (resultsArray[i].toString().includes(3)) {
         resultsArray[i]="Wont you be my neighbor";
       } else if (resultsArray[i].toString().includes(2)){
         resultsArray[i]= "Boop";
