@@ -23,14 +23,18 @@ Describe: beepBoop()
 Test: It returns an array with 0 if the user inputs 0
 Expect:(beepBoop(0)).toEqual([0]);
 
-Test: It replaces the digit 1 with "Beep!" in any number that contains the digit 1
+Test: It replaces all digits  with "Beep!" in any number that contains the digit 1
 Expect:(beepBoop(1)).toEqual("Beep!");
 
-Test: It replaces the digit 2 with "Boop!" in any number that contains the digit 2
+Test: It replaces all digits  with "Boop!" in any number that contains the digit 2
 Expect:(beepBoop(2)).toEqual("Boop!");
 
-Test: It replaces the digit 3 with "Won't you be my neighbor?" for any number that contains the digit 3
+Test: It replaces all digits  with "Won't you be my neighbor?" for any number that contains the digit 3
 Expect(beepBoop(3)).toEqual("Won't you be my neighbor?")
+
+Test: It replaces all digits with first or second exception when a 2 or 3 is present in input
+Expect(beepBoop(21)).toEqual(Boop) 
+Expect (beepBoop(13)).toEqual(Won't you be my neigbor?)
 
 ## Known Bugs
 Currently only works for single digit numbers. Double digit numbers return whole array

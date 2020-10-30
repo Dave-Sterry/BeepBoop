@@ -8,9 +8,12 @@ $(document).ready(function() {
     let results = boop.join(" , ");
     $("#output").text(results);
   });
-  $('#reset').click(function() {
+  $('#clear').click(function() {
     $('#output').hide();
   });
+  $('#reset').click(function() {
+    $('#userInput').resetForm();
+  })
 });
 
 
