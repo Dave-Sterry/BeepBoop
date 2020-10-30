@@ -9,12 +9,21 @@ _A simple website that will take a users numerical input and return words. Input
 The site can be viewed [here](insert gh pages link)
 
 ## Setup Instructions
-1. User will need to have an up to date browser installed such as Chrome of Firefox
-2. Using the browser navigate to the [gh-pages](gh pages link) for this project
-2. Alternatively use the browser navigate to my GitHub page [respository](portfolio link for this site
-3. Click the Green **Code** button and select **Download Zip**
-4. Unzip the downloaded folder
-5. Open the _index.html_ file to view the site locally
+ User will need to have an up to date browser installed such as Chrome of Firefox
+ # View online :
+1. Using the browser navigate to the [gh-pages](gh pages link) for this project
+# Download via Github:
+1. Alternatively use the browser navigate to my GitHub page [respository](portfolio link for this site
+2. Click the Green **Code** button and select **Download Zip**
+3. Unzip the downloaded folder
+4. Open the _index.html_ file to view the site locally
+# Clone from Github via Gitbash:
+1. Clone this repo to your personal computer using "git clone (repo name)
+2. Next navigate to the direct with the same name, and open via VScode or other code editor of your choice
+3. Open index.html in your browser of choice. 
+# How to use site
+1. Enter a number of your choice
+2. view the results of the Beep Boop machine. 
 
 ## Specs
 
