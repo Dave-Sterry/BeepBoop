@@ -4,22 +4,22 @@
 ### A website by David Sterry updated on 10/30/20
 ## Description
 
-_A simple website that will take a users numerical input and return words. Input of 1 is replaced with Beep, input of 2 is replaced with Boop and an input of 3 is replaced with "wont you be my neighbor?"_
+_A simple website that will take a users numerical input and return words. Any input with a "1" all digits of input are replaced with Beep. Any input with a "2" all digits of input are replaced with "Boop". Any input with a "3" all digits are replaced with  "wont you be my neighbor?"_
 
-The site can be viewed [here](insert gh pages link)
+The site can be viewed [here](https://dave-sterry.github.io/BeepBoop/)
 
 ## Setup Instructions
  User will need to have an up to date browser installed such as Chrome of Firefox
  # View online :
-1. Using the browser navigate to the [gh-pages](gh pages link) for this project
+1. Using the browser navigate to the [gh-pages](https://dave-sterry.github.io/BeepBoop/) for this project
 ## Download via Github:
-1. Alternatively use the browser navigate to my GitHub page [respository](portfolio link for this site
+1. Alternatively use the browser navigate to my GitHub page [respository](https://github.com/Dave-Sterry/BeepBoop)
 2. Click the Green **Code** button and select **Download Zip**
 3. Unzip the downloaded folder
 4. Open the _index.html_ file to view the site locally
 ## Clone from Github via Gitbash:
-1. Clone this repo to your personal computer using "git clone (repo name)
-2. Next navigate to the direct with the same name, and open via VScode or other code editor of your choice
+1. Clone this repo to your personal computer using "git clone (rhttps://github.com/Dave-Sterry/BeepBoop)
+2. Next navigate to the directory on your computer with the same name, and open via VScode or other code editor of your choice
 3. Open index.html in your browser of choice. 
 ## How to use site
 1. Enter a number of your choice
